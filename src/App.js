@@ -6,25 +6,25 @@ function App() {
     <div className="App">
      <div id="daysDiv">
       <div id="mondayDiv">
-        <div id="topRow"></div><div id="imageRow"></div><div id="imageRow"></div>
+         <div id="topRow"></div><div id="imageRow"></div><div id="bottomRow"></div>
       </div>
       <div id="tuesdayDiv">
-      <div id="topRow"></div><div id="imageRow"></div><div id="imageRow"></div>
+        <div id="topRow"></div><div id="imageRow"></div><div id="bottomRow"></div>
       </div>
       <div id="wednesdayDiv">
-      <div id="topRow"></div><div id="imageRow"></div><div id="imageRow"></div>
+        <div id="topRow"></div><div id="imageRow"></div><div id="bottomRow"></div>
       </div>
       <div id="thursdayDiv">
-      <div id="topRow"></div><div id="imageRow"></div><div id="imageRow"></div>
+        <div id="topRow"></div><div id="imageRow"></div><div id="bottomRow"></div>
       </div>
       <div id="fridayDiv">
-      <div></div><div></div><div></div>
+      <div id="topRow"></div><div id="imageRow"></div><div id="bottomRow"></div>
       </div>
       <div id="saturdayDiv">
-      <div></div><div></div><div></div>
+      <div id="topRow"></div><div id="imageRow"></div><div id="bottomRow"></div>
       </div>
       <div id="sundayDiv">
-      <div></div><div></div><div></div>
+      <div id="topRow"></div><div id="imageRow"></div><div id="bottomRow"></div>
       </div>
 
      </div>

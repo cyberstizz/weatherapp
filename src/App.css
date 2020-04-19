@@ -108,10 +108,14 @@ border-right: indigo 1px solid;
 
 #topRow{
   border-bottom: indigo 1px solid;
-  height: 25%;
+  height: 33%;
 }
 
 #imageRow{
   border-bottom: indigo 1px solid;
-  height: 25%;
+  height: 33%;
+}
+
+#bottomRow{
+  height: 33%;
 }
