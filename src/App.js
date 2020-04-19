@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 
+console.log(process.env.REACT_APP__API_KEY)
+
 function App() {
   return (
     <div className="App">
