@@ -93,3 +93,11 @@ border-right: indigo 1px solid;
   height: 40vh;
   border-right: indigo 1px solid;
 }
+
+#mondaySolo{
+  background-color: grey;
+  width: 10vw;
+  height: 40vh;
+  border-right: indigo 1px solid;
+  margin: 0 auto;
+}
