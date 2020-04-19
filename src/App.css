@@ -36,3 +36,60 @@
     transform: rotate(360deg);
   }
 }
+
+#daysDiv{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 65vh;
+  margin-top: 30vh;
+  margin-left: 20vw;
+}
+
+#mondayDiv{
+background-color: grey;
+width: 10vw;
+height: 40vh;
+border-right: indigo 1px solid;
+}
+
+#tuesdayDiv{
+  background-color: grey;
+  width: 10vw;
+  height: 40vh;
+  border-right: indigo 1px solid;
+}
+
+#wednesdayDiv{
+  background-color: grey;
+  width: 10vw;
+  height: 40vh;
+  border-right: indigo 1px solid;
+}
+
+#thursdayDiv{
+  background-color: grey;
+  width: 10vw;
+  height: 40vh;
+  border-right: indigo 1px solid;
+}
+
+#fridayDiv{
+  background-color: grey;
+  width: 10vw;
+  height: 40vh;
+  border-right: indigo 1px solid;
+}
+
+#saturdayDiv{
+  background-color: grey;
+  width: 10vw;
+  height: 40vh;
+  border-right: indigo 1px solid;
+}
+#sundayDiv{
+  background-color: grey;
+  width: 10vw;
+  height: 40vh;
+  border-right: indigo 1px solid;
+}
