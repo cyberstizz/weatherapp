@@ -18,35 +18,40 @@ function App() {
      <div id="daysDiv">
       <div id="mondayDiv">
          <div id="topRow">
-          <h3>Monday</h3> 
+           <br/>
+           <br/>
+          <strong><em>Monday</em></strong>
            </div><div id="imageRow"></div><div id="bottomRow"></div>
       </div>
       <div id="tuesdayDiv">
         <div id="topRow">
-        <h3>Tuesday</h3> 
+        <br/>
+        <br/>
+        <strong><em>Tuesday</em></strong>
           </div><div id="imageRow"></div><div id="bottomRow"></div>
       </div>
       <div id="wednesdayDiv">
         <div id="topRow">
-        Wednesday
+        <br/>
+        <br/>
+        <strong><em>Wednesday</em></strong>
+    
           </div><div id="imageRow"></div><div id="bottomRow"></div>
       </div>
       <div id="thursdayDiv">
         <div id="topRow">
-        Thursday
+        <br/>
+        <br/>
+          <strong><em>Thursday</em></strong>
 
           </div><div id="imageRow"></div><div id="bottomRow"></div>
       </div>
       <div id="fridayDiv">
       <div id="topRow">
-      Friday
+      <br/>
+      <br/>
+      <strong><em>Friday</em></strong>
         </div><div id="imageRow"></div><div id="bottomRow"></div>
-      </div>
-      <div id="saturdayDiv">
-      <div id="topRow"></div><div id="imageRow"></div><div id="bottomRow"></div>
-      </div>
-      <div id="sundayDiv">
-      <div id="topRow"></div><div id="imageRow"></div><div id="bottomRow"></div>
       </div>
 
      </div>
