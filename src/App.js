@@ -6,9 +6,10 @@ import {
   Route,
   Link
 } from "react-router-dom";
-require('dotenv').config();
 
-console.log(process.env.API_KEY)
+console.log(process.env.REACT_APP_WEATHER_API_KEY)
+
+const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
 
 function App() {
   return (
