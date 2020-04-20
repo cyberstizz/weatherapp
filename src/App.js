@@ -1,11 +1,19 @@
 import React from 'react';
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+require('dotenv').config();
 
-console.log(process.env.REACT_APP__API_KEY)
+console.log(process.env.API_KEY)
 
 function App() {
   return (
     <div className="App">
+      <h1 id="topText">Weekly forecast</h1>
      <div id="daysDiv">
       <div id="mondayDiv">
          <div id="topRow"></div><div id="imageRow"></div><div id="bottomRow"></div>

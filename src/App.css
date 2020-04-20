@@ -43,7 +43,7 @@
   width: 100%;
   height: 65vh;
   margin-top: 30vh;
-  margin-left: 20vw;
+  margin-left: 28vw;
 }
 
 #mondayDiv{
@@ -118,4 +118,11 @@ border-right: indigo 1px solid;
 
 #bottomRow{
   height: 33%;
+}
+
+#topText{
+  height: 5vh;
+  width: 50vw;
+  color: black;
+  margin-left: 35vw;
 }

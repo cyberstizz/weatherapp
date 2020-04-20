@@ -13,7 +13,8 @@ export default class Monday extends React.Component {
     render(){
   return (
     <div id="mondaySolo" >
-
+      <h1> Monday forecast</h1>
+         <div id="topRow"></div><div id="imageRow"></div><div id="bottomRow"></div>
     </div>
   );
 }
