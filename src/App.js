@@ -18,6 +18,9 @@ class App extends React.Component{
       temperature: 40
     }
   }
+  componentDidMount(){
+    
+  }
     render(){
   return (
     <div className="App">
