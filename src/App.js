@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import axios from 'axios';
 import {
   BrowserRouter as Router,
   Switch,
@@ -15,11 +16,21 @@ class App extends React.Component{
   constructor(props){
     super(props)
     this.state = {
-      temperature: 40
+      mondayMin: 40,
+      mondayMax: 40,
+      tuesdayMin: 40,
+      tuesdayMax: 40,
+      wednesdayMin: 40,
+      wednesdayMax: 40,
+      thursdayMin: 40,
+      thursdayMax: 40,
+      fridayMin: 40,
+      fridayMax: 40
     }
   }
   componentDidMount(){
-    
+    axios.get(`https://api.openweathermap.org/data/2.5/forecast?id=5128581&appid=${API_KEY}`)
+    .then(res => console.log(res.data))
   }
     render(){
   return (
