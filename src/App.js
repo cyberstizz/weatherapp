@@ -11,7 +11,14 @@ console.log(process.env.REACT_APP_WEATHER_API_KEY)
 
 const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
 
-function App() {
+class App extends React.Component{
+  constructor(props){
+    super(props)
+    this.state = {
+      temperature: 40
+    }
+  }
+    render(){
   return (
     <div className="App">
       <h1 id="topText">Weekly forecast</h1>
@@ -21,7 +28,7 @@ function App() {
            <br/>
            <br/>
           <strong><em>Monday</em></strong>
-           </div><div id="imageRow"></div><div id="bottomRow"></div>
+           </div><div id="imageRow"></div><div id="bottomRow">{this.state.temperature}</div>
       </div>
       <div id="tuesdayDiv">
         <div id="topRow">
@@ -57,6 +64,7 @@ function App() {
      </div>
     </div>
   );
+    }
 }
 
 export default App;
