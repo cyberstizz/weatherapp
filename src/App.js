@@ -11,6 +11,7 @@ import {
 console.log(process.env.REACT_APP_WEATHER_API_KEY)
 
 const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
+const newYork = 5128581;
 
 class App extends React.Component{
   constructor(props){
@@ -29,7 +30,7 @@ class App extends React.Component{
     }
   }
   componentDidMount(){
-    axios.get(`https://api.openweathermap.org/data/2.5/forecast?id=5128581&appid=${API_KEY}`)
+    axios.get(`https://api.openweathermap.org/data/2.5/forecast?id=${newYork}&appid=${API_KEY}`)
     .then(res => console.log(res.data))
   }
     render(){
