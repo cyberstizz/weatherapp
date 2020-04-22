@@ -1,12 +1,6 @@
 import React from 'react';
-import './App.css';
+import '../';
 import axios from 'axios';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
 
 const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
 const newYork = 5128581;
